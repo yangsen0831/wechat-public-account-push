@@ -30,21 +30,18 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝阳历', year: '1998', date: '09-04',
+          type: '*生日', name: '宝贝农历', year: '1998', date: '07-14',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '宝贝农历', year: '1998', date: '07-14',
+          type: '生日', name: '奥利奥', year: '2018', date: '04-01',
         },
         {
-          type: '*生日', name: '奥利奥', year: '2018', date: '04-01',
-        },
-        {
-          type: '*生日', name: '柠檬茶', year: '2022', date: '01-15',
+          type: '生日', name: '柠檬茶', year: '2022', date: '01-15',
         },
         {
           type: '节日', name: '相识纪念日', year: '2017', date: '08-31',
-        },
+        }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
