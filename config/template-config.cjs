@@ -25,6 +25,10 @@ const TEMPLATE_CONFIG = [
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
+      今天是奥利奥的第{{aoliao_day.DATA}}天
+      今天是我们陪伴奥利奥的第{{accompany_aoliao_day.DATA}}天
+      今天是柠檬茶的第{{ningmengcha_day.DATA}}天
+      今天是我们陪伴柠檬茶的第{{accompany_ningmengcha_day.DATA}}天
       
       {{birthday_message.DATA}}
       
