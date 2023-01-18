@@ -46,7 +46,15 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2017-08-31' }
+        { keyword: 'love_day', date: '2017-08-31' },
+        // 奥利奥在世天数
+        { keyword: 'aoliao_day', date: '2018-04-01' },
+        // 陪伴了奥利奥的天数
+        { keyword: 'accompany_aoliao_day', date: '2018-05-29' },
+        // 柠檬茶在世天数
+        { keyword: 'ningmengcha_day', date: '2022-01-15' },
+        // 陪伴了柠檬茶的天数
+        { keyword: 'accompany_ningmengcha_day', date: '2022-05-10' }
       ],
     },
   ],
