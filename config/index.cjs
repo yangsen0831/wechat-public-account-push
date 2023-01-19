@@ -15,22 +15,28 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '四川',
-  CITY: '泸州',
+  CITY: '成都',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '杨森',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'cacf6a30d76a46709242111504f8c0ea',
+      id: 'f2c4ddde45da4eddb9772669ba0fb190',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '09-04',
+      horoscopeDate: '01-08',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1998', date: '07-14',
+          type: '*生日', name: '自己', year: '1998', date: '01-08',
+        },
+        {
+          type: '*生日', name: '妈妈', year: '1969', date: '07-07',
+        },
+        {
+          type: '*生日', name: '爸爸', year: '1971', date: '11-16',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -61,13 +67,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0002',
+  CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'f2c4ddde45da4eddb9772669ba0fb190',
+      id: '',
     }
   ],
 
